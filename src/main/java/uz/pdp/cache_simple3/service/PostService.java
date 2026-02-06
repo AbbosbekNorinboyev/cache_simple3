@@ -10,7 +10,10 @@ public interface PostService {
     Post create(PostCreateDTO postCreateDTO);
 
     Post get(Integer id) throws InterruptedException;
+
     List<Post> getAll();
+
     Post update(PostUpdateDTO postUpdateDTO);
+
     void delete(Integer id);
 }
